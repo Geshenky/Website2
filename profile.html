@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="profile.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="navbar">
+        <img src="Image/circle.png" alt="logo" class="logo" />
+        <div class="navlinks">
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="links.html">LINKS</a></li>
+            <li><a href="profile.html">PROFILE</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="profile-container">
+        <h1><span>S</span>LACK <span>P</span>ROFILE</h1>
+        <div class="info">
+          <h2 data-testid="slackDisplayName">Slack Name:Odubola Dorcas</h2>
+          <h2 data-testid="slackEmail">Slack Email:ttaiwoodus@gmail.com</h2>
+          <h2 data-testid="currentTimeUTC">
+            Day and Time of the week<span id="date-time"></span>
+          </h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="profile.js">
+      /*
+      function updateDateTime() {
+        const now = new Date();
+        const date = now.toLocaleDateString();
+        const time = now.toLocaleTimeString();
+        document.getElementById("date-time").textContent = `${date} ${time}`;
+      }
+      setInterval(updateDateTime, 1000);
+      updateDateTime();
+      */
+    </script>
+  </body>
+</html>
